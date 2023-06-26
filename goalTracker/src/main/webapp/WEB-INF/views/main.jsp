@@ -13,13 +13,11 @@
 
         <body>
             <nav class="navbar navbar-default">
-                <div class="navbar-header">
-                    <button type=" button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    </button>
+                <div style="padding:40px; margin: 0 auto; width:300px;">
+                    <button type=" button" class="navbar-toggle collapsed" data-toggle="collapse"data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
                     <a class="navbar-brand" href="main">
                         <br>
-                        <p style="font-weight: bold; font-size: 40px;">GOAL TRACKER</p>
+                        <p style="font-weight: bold; font-size: 40px;">GOAL&nbsp;TRCKER</p>
                     </a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
