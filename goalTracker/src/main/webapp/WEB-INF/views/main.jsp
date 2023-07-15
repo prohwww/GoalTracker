@@ -46,23 +46,24 @@
                                 <div class="panel panel-info" style="border-width: 0;">
                                     <!-- 사이드바 메뉴목록1 -->
                                     <ul class="list-group">
-                                        <li class="list-group-item" style="border-width: 0;"><a href="main"
-                                                style="color: black;">버킷
-                                                리스트</a></li>
-                                        <!-- 추후 게시판명 적용 예정 -->
-                                        <li class="list-group-item" style="border-width: 0;"><a href="main"
-                                                style="color: black;">월간
-                                                계획</a></li>
-                                        <!-- 추후 게시판명 적용 예정 -->
-                                        <li class="list-group-item" style="border-width: 0;"><a href="main"
-                                                style="color: black;">주/일간
-                                                계획</a></li>
-                                        <!-- 추후 게시판명 적용 예정 -->
+                                        <li class="list-group-item" style="border-width: 0;"><a href="main" style="color: black;">버킷 리스트</a></li>
+                                        <li class="list-group-item" style="border-width: 0;"><a href="main" style="color: black;">월간 계획</a></li>
+                                        <li class="list-group-item" style="border-width: 0;"><a href="main" style="color: black;">주/일간 계획</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </s_sidebar_element>
                     </s_sidebar>
+                </div>
+            </div>
+            <div class="container">	
+                    <div class="container">
+                            <h1>BUCKET LIST</h1>
+                        </div>
+                        <div style = "text-align : center;">
+                            <div style = "text-align : right;">
+                        </div>
+                    </div>
                 </div>
             </div>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
