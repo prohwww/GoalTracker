@@ -10,4 +10,8 @@ public class MainController {
 	public String main() {
 		return "/main";
 	}
+	@GetMapping("/bucketList")
+	public String bucketList() {
+		return "/bucketList";
+	}
 }

@@ -56,6 +56,29 @@
                     </s_sidebar>
                 </div>
             </div>
+            <div class="container">
+                <div class="container" style="text-align : center;">
+                    <br><br><br><br><br>
+                    <!-- <h1>BUCKET LIST</h1> -->
+                    <div style="text-align : center;">
+                        <table border = '1' style="width:80%; height: 150px; margin: auto; text-align: center;">
+                            <tr>
+                                <th scope="col" width="90%" style="text-align : center;">2023 Goal List</td>
+                                <th scope="col" style="text-align : center;">check</td>
+                            </tr>
+                            <tr>
+                                <td>1. 프로젝트 완성하기</td>
+                                <td>v</td>
+                            </tr>
+                            <tr>
+                                <td>2. 책 10권 읽기</td>
+                                <td>v</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </div>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
         </body>
