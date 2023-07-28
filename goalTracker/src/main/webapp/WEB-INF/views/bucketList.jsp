@@ -46,8 +46,8 @@
                                 <div class="panel panel-info" style="border-width: 0;">
                                     <!-- 사이드바 메뉴목록1 -->
                                     <ul class="list-group">
-                                        <li class="list-group-item" style="border-width: 0;"><a href="/bucketList" style="color: black;">버킷 리스트</a></li>
-                                        <li class="list-group-item" style="border-width: 0;"><a href="main" style="color: black;">월간 계획</a></li>
+                                        <li class="list-group-item" style="border-width: 0;"><a href="bucketList" style="color: black;">버킷 리스트</a></li>
+                                        <li class="list-group-item" style="border-width: 0;"><a href="monthly" style="color: black;">월간 계획</a></li>
                                         <li class="list-group-item" style="border-width: 0;"><a href="main" style="color: black;">주/일간 계획</a></li>
                                     </ul>
                                 </div>
