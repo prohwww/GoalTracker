@@ -1,0 +1,38 @@
+package com.goalTracker.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class MainController {
+	
+	@GetMapping("/main")
+	public String main() {
+		return "/main";
+	}
+	@GetMapping("/bucketList")
+	public String bucketList() {
+		return "/bucketList";
+	}
+	@GetMapping("/monthly")
+	public String monthly() {
+		return "/monthly";
+	}
+	@GetMapping("/weekly")
+	public String weekly() {
+		return "/weekly";
+	}
+	
+	@DeleteMapping("/DataUpdate")
+	@ResponseBody
+	public String deleteEvent(@RequestBody List<Map<String, Object>> param){
+		for (int i = 0; i < param.size(); i++) {
+			String username = (String) param.get(i).get("title");
+	 
+	        User user = userService.findByUsername(username).get();
+	        managerAssignScheduleService.deleteByUser(user);
+	    }
+		return "/full-calendar/calendar-admin-update";
+	}
+	
+}

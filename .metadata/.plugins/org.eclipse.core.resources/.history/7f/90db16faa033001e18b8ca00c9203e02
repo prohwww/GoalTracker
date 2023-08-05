@@ -1,0 +1,9 @@
+package com.goalTracker.controller;
+
+public class WeeklyVO {
+	private String schedule;
+	
+	public String getSchedule() {
+		return schedule;
+	}
+}

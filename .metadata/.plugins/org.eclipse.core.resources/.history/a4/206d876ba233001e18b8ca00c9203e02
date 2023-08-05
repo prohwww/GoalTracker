@@ -1,0 +1,37 @@
+package com.goalTracker.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class MainController {
+
+	@GetMapping("/main")
+	public String main() {
+		return "/main";
+	}
+
+	@GetMapping("/bucketList")
+	public String bucketList() {
+		return "/bucketList";
+	}
+
+	@GetMapping("/monthly")
+	public String monthly() {
+		return "/monthly";
+	}
+
+	@GetMapping("/weekly")
+	public String weekly() {
+		return "/weekly";
+	}
+	
+	@PostMapping("/weekly/DataUpdate")
+	public String DataUpdate(WeeklyVO weeklyVO) {
+		// 데이터 처리 필요
+		return "/weekly/DataUpdate";
+	}
+
+}

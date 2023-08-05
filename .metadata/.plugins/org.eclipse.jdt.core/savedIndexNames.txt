@@ -27,6 +27,7 @@ INDEX VERSION 1.132+C:\Users\j8171\OneDrive\바탕 화면\studyhard\프젝\GoalTracker
 675221823.index
 2308928497.index
 2832758843.index
+692707834.index
 2726416920.index
 3652924743.index
 119230470.index
